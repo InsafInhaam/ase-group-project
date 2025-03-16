@@ -12,7 +12,7 @@ const ViewExpenses = () => {
       .then((result) => {
         setTrains(result);
       });
-  }, [trains]);
+  }, []);
 
   // console.log(trains);
 

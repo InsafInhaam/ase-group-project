@@ -17,7 +17,7 @@ const Expenses = () => {
       .then((result) => {
         setExpenses(result);
       });
-  }, [expenses]);
+  }, []);
 
   const handleDelete = (id) => {
     fetch(process.env.REACT_APP_API_URL + "/expenses/" + id, {
